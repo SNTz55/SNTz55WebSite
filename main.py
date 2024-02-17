@@ -11,9 +11,5 @@ def home():
 def about():
   return render_template('about.html')
 
-@app.route('/time')
-def time():
-  return f"The time is: {datetime.datetime.utcnow}"
-
 if __name__ == '__main__':
   app.run()
