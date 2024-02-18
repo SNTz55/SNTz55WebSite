@@ -5,7 +5,7 @@
     </head>
     <style>
         .TestButton {
-            background-color: rgb(10, 102, 194);
+            background-color: #0A66C2;
             color: white;
             border: None;
             height: 40px;
@@ -13,11 +13,28 @@
             border-radius: 20px;
             font-weight: bold;
             cursor: pointer;
-        }
+	        position: relative;
+	        left: 50%;
+	        -ms-transform: translate(-50%, -50%);
+	        transform: translate(-50%, -50%);
+	    }
+
+	body {
+	    background-color: #DBF9FC;
+	    font-family: 'Lexend Deca', sans-serif;
+	    width: 900px; 
+	    margin: auto;
+	}
+
+	.MainTitle {
+	    color: #2E475D;
+	    text-align: center;
+	    font-size: 80px
+	}
     </style>
     <body>
-        <h1>Hello! This is the homepage.</h1>
-        <p><a href="https://sntz55website.onrender.com/about">About</a></p>
-        <p><button class="TestButton", type="Button", onclick="alert('TEST')">Click for fun</button>
+      <h1 class="MainTitle">Welcome.</h1>
+      <button class="TestButton", type="Button", onclick="alert('TEST')">Click for fun</button>
+      <p><a href="https://sntz55website.onrender.com/about">About</a></p>
     </body>
 </html>
