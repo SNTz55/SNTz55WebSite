@@ -13,11 +13,21 @@
             border-radius: 20px;
             font-weight: bold;
             cursor: pointer;
-	        position: relative;
-	        left: 50%;
-	        -ms-transform: translate(-50%, -50%);
-	        transform: translate(-50%, -50%);
-	    }
+	    position: relative;
+	    left: 50%;
+	    -ms-transform: translate(-50%, -50%);
+	    transform: translate(-50%, -50%);
+	}
+
+	.TestButton:hover {
+	    opacity: 0.8;
+	    box-shadow: 5, 5, 5, #00000027;
+	}
+
+	.TestButton:active {
+	    opacity: 0.5;
+	    box-shadow: 2, 2, 5, #00000027;
+	}
 
 	body {
 	    background-color: #DBF9FC;
