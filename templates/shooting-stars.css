@@ -71,9 +71,7 @@ body {
     }
   }
 
-  body {
-    overflow:hidden;
-  }
+  body {}
 
   /* Randomized twinkle delays */
 .star:nth-child(1):before {
