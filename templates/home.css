@@ -1,6 +1,4 @@
-<!DOCTYPE CSS>
-<style>
-    .TestButton {
+.TestButton {
             background-color: #0A66C2;
             color: white;
             border: None;
@@ -36,5 +34,4 @@
 	    color: #2E475D;
 	    text-align: center;
 	    font-size: 80px
-  }
-</style>
+	}
