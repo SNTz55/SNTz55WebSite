@@ -9,29 +9,29 @@
         cursor: pointer;
 	position: relative;
 	left: 50%;
-	    -ms-transform: translate(-50%, -50%);
-	    transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
 }
 
-	.TestButton:hover {
-	    opacity: 0.8;
-	    box-shadow: 5, 5, 5, #00000027;
-	}
+.TestButton:hover {
+        opacity: 0.8;
+	box-shadow: 5, 5, 5, #00000027;
+}
 
-	.TestButton:active {
-	    opacity: 0.5;
-	    box-shadow: 2, 2, 5, #00000027;
-	}
+.TestButton:active {
+	opacity: 0.5;
+	box-shadow: 2, 2, 5, #00000027;
+}
 
-	body {
-	    background-color: #DBF9FC;
-	    font-family: 'Lexend Deca', sans-serif;
-	    width: 900px; 
-	    margin: auto;
-	}
+body {
+	background-color: #DBF9FC;
+	font-family: 'Lexend Deca', sans-serif;
+	width: 900px; 
+	margin: auto;
+}
 
-	.MainTitle {
-	    color: #2E475D;
-	    text-align: center;
-	    font-size: 80px
-	}
+.MainTitle {
+	color: #2E475D;
+	text-align: center;
+	font-size: 80px;
+}
