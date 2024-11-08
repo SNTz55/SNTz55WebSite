@@ -1,17 +1,17 @@
 .TestButton {
-            background-color: #0A66C2;
-            color: white;
-            border: None;
-            height: 40px;
-            width: 105px;
-            border-radius: 20px;
-            font-weight: bold;
-            cursor: pointer;
-	    position: relative;
-	    left: 50%;
+	background-color: #0A66C2;
+        color: white;
+        border: None;
+        height: 40px;
+        width: 105px;
+        border-radius: 20px;
+        font-weight: bold;
+        cursor: pointer;
+	position: relative;
+	left: 50%;
 	    -ms-transform: translate(-50%, -50%);
 	    transform: translate(-50%, -50%);
-	}
+}
 
 	.TestButton:hover {
 	    opacity: 0.8;
