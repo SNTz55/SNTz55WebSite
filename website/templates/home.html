@@ -1,10 +1,12 @@
-<html>
-  <head>
-    <title>test</title>
-    <link rel="stylesheet" href="home.css">
-  </head>
+{% extends "base.html" %}
+{% block cssrefs %}
+<link rel="stylesheet" href="../static/home.css">
+{% endblock %}
+{% block title %}Home{% endblock %}
 
-  <body>
-    hi
-  </body>
-</html>
+{% block content %}
+<h1 class="MainTitle">Welcome.</h1>
+<button class="TestButton", type="Button", onclick="alert('test');">
+  Click 4 Fun
+</button>
+{% endblock %}
